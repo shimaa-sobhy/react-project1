@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.py-8 {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+.active{
+    font-weight: 900;
+    padding-bottom: 2px;
+    color: #7ad2d2;
+    border-radius: 30%;
+}
+
+.video{
+    width: 30px;
+    height: 30px;
+    box-shadow: 0px 0px 0px 2px #edeeef;
+    margin-left: 20px;
+}
+.circle{
+    border-radius: 50% 
+}
+/* .lightbox-container{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.lightbox-item{
+    width: 50%;
+    height: 70vh;
+    background-image: url(./assets/imags/port1.png);
+    background-size: cover;
+} */
